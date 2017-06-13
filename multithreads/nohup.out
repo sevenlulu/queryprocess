@@ -1,0 +1,1450 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.157 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -102.991283
+nSV = 12037
+ * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.161 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -102.991283
+nSV = 12037
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.0.95 - - [05/Jun/2017 18:07:28] "GET /text/%E6%88%91%E4%B8%8D%E5%BC%80%E5%BF%83 HTTP/1.1" 200 -
+10.0.1.79 - - [05/Jun/2017 18:08:14] "GET /text/%E5%88%98%E5%BE%B7%E5%8D%8E%E5%86%B0%E9%9B%A8 HTTP/1.1" 200 -
+10.0.1.79 - - [05/Jun/2017 18:08:29] "GET /text/%E5%88%98%E5%BE%B7%E5%8D%8E%E5%86%B0%E9%9B%A8%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3 HTTP/1.1" 200 -
+10.0.1.79 - - [05/Jun/2017 18:09:19] "GET /text/%E5%88%98%E5%BE%B7%E5%8D%8E%E4%BC%A4%E5%BF%83%E7%9A%84%E5%93%A5 HTTP/1.1" 200 -
+10.0.1.79 - - [05/Jun/2017 18:11:09] "GET /text/%E6%88%91%E4%B8%8D%E5%BC%80%E5%BF%83 HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/multithreads.py', reloading
+read: 0.018036 s
+read: 0.013999 s
+read: 0.013100 s
+read: 0.013870 s
+read: 0.038612 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f8e5798a490>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f8e55351c90>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.161 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -102.991283
+nSV = 12037
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.0.95 - - [05/Jun/2017 18:18:02] "GET /text/%E6%88%91%E4%B8%8D%E5%BC%80%E5%BF%83 HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/multithreads.py', reloading
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f9260b05490>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f925e4ccc90>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.163 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -102.991283
+nSV = 12037
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fe5b3998490>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fe5b1323c90>> ignored
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.162 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -102.991283
+nSV = 12037
+Traceback (most recent call last):
+  File "multithreads.py", line 136, in <module>
+    api.run(host='0.0.0.0', port=5200, debug=True, threaded=True)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 841, in run
+    run_simple(host, port, self, **options)
+  File "/home/user/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 720, in run_simple
+    s.bind((hostname, port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f57435d4490>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f5740f9cc90>> ignored
+10.0.0.95 - - [06/Jun/2017 10:16:17] "GET /text/%E6%88%91%E4%B8%8D%E5%BC%80%E5%BF%83 HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/multithreads.py', reloading
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f5d477d8490>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f5d4519ec90>> ignored
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.163 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -102.991283
+nSV = 12037
+ * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.161 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -102.991283
+nSV = 12037
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.0.95 - - [06/Jun/2017 10:25:52] "GET /text/%E6%88%91%E4%B8%8D%E5%BC%80%E5%BF%83 HTTP/1.1" 200 -
+10.0.1.79 - - [06/Jun/2017 10:38:49] "GET /text/%E6%88%91%E4%B8%8D%E5%BC%80%E5%BF%83 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:43:09] "GET /text/%E7%BB%99%E6%88%91%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%8F%A4%E5%85%B8 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:43:31] "GET /text/%E7%BB%99%E6%88%91%E4%B8%80%E4%B8%AA%E4%B8%83%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%8F%A4%E5%85%B8 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:43:36] "GET /text/%E7%BB%99%E6%88%91%E4%B8%80%E4%B8%AA%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%8F%A4%E5%85%B8 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:43:41] "GET /text/%E7%BB%99%E6%88%91%E4%B8%80%E4%B8%AA90%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%8F%A4%E5%85%B8 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:43:45] "GET /text/%E7%BB%99%E6%88%9190%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%8F%A4%E5%85%B8 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:43:53] "GET /text/%E7%BB%99%E6%88%91%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%8F%A4%E5%85%B8 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:44:05] "GET /text/%E7%BB%99%E6%88%91%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%8F%A4%E5%85%B8 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:44:08] "GET /text/%E7%BB%99%E6%88%91%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%8F%A4%E5%85%B8 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:44:25] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%9D%8E%E7%99%BD HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:44:34] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E7%94%B7%E6%AD%8C%E6%89%8B HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:44:47] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E7%94%B7%E6%AD%8C%E6%89%8B%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:45:00] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%9D%8E%E7%99%BD HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:45:13] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%A5%B3%E7%94%9F%E6%B5%81%E8%A1%8C%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:45:37] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E7%A4%BC%E6%8B%9C HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:45:43] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%9D%8E%E7%99%BD HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:45:53] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E7%A8%8B%E5%BA%A6 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:45:57] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%88%90%E9%83%BD HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 15:46:23] "GET /text/%E7%BB%99%E6%88%91%E6%9D%A5%E4%B8%80%E9%A6%96%E6%9D%8E%E7%99%BD HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:24:04] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%82%93%E7%B4%AB%E6%A3%8B HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:24:11] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%82%93%E7%B4%AB%E6%A3%8B%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:27:55] "GET /text/%E6%88%91%E6%83%B3%E5%90%ACgem HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:28:26] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%82%93%E7%B4%AB%E6%A3%8B HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:43:09] "GET /text/%E6%9D%A5%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:43:12] "GET /text/%E6%9D%A5%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:43:14] "GET /text/%E6%9D%A5%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:43:45] "GET /text/%E6%9D%A5%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:43:55] "GET /text/%E6%9D%A5%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:45:16] "GET /text/%E6%9D%A5%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:45:47] "GET /text/%E6%9D%A5%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:45:50] "GET /text/%E6%9D%A5%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:47:37] "GET /text/%E6%9D%A5%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 16:48:46] "GET /text/%E6%9D%A5%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:01:07] "GET /text/%E6%9D%A5%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:04:11] "GET /text/%E6%9D%A5%E4%B8%80%E4%B8%AA%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:04:16] "GET /text/%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:04:21] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:04:28] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E4%B8%83%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:04:42] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:07:40] "GET /text/%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:07:54] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3 HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:08:27] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%88%98%E5%BE%B7%E5%8D%8E HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:08:41] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E5%88%98%E5%BE%B7%E5%8D%8E HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:11:22] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E5%88%98%E5%BE%B7%E5%8D%8E HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:11:26] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E5%88%98%E5%BE%B7%E5%8D%8E%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:12:09] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E5%88%98%E5%BE%B7%E5%8D%8E%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:12:13] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E5%88%98%E5%BE%B7%E5%8D%8E%E7%9A%84%E5%9C%A8%E8%B7%AF%E4%B8%8A%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:12:16] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E5%88%98%E5%BE%B7%E5%8D%8E%E7%9A%84%E5%9C%A8%E8%B7%AF%E4%B8%8A%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:14:17] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E5%88%98%E5%BE%B7%E5%8D%8E%E7%9A%84%E5%9C%A8%E8%B7%AF%E4%B8%8A%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:14:21] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E5%88%98%E5%BE%B7%E5%8D%8E HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:14:34] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:15:37] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [06/Jun/2017 17:15:38] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.1.79 - - [07/Jun/2017 13:27:23] "GET /text/%E6%88%91%E4%B8%8D%E5%BC%80%E5%BF%83 HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/timeprocess.py', reloading
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f0629da0490>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f0627766c90>> ignored
+ * Restarting with stat
+Traceback (most recent call last):
+  File "multithreads.py", line 8, in <module>
+    from genreprocess import output_genre
+  File "/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py", line 12, in <module>
+    f = file("/Users/fei_Daniel/Desktop/query理解/多线程/data/addition.json")
+IOError: [Errno 2] No such file or directory: '/Users/fei_Daniel/Desktop/query\xe7\x90\x86\xe8\xa7\xa3/\xe5\xa4\x9a\xe7\xba\xbf\xe7\xa8\x8b/data/addition.json'
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fb0e6356490>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fb0e3d1cc90>> ignored
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.163 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -102.991283
+nSV = 12037
+ * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.164 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -102.991283
+nSV = 12037
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.0.95 - - [08/Jun/2017 19:58:23] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%9D%8E%E7%99%BD HTTP/1.1" 200 -
+10.0.0.95 - - [08/Jun/2017 19:58:31] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [08/Jun/2017 19:59:21] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E HTTP/1.1" 200 -
+10.0.0.95 - - [08/Jun/2017 19:59:34] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E5%91%8A%E7%99%BD%E6%B0%94%E7%90%83 HTTP/1.1" 200 -
+10.0.0.95 - - [08/Jun/2017 19:59:50] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%9C%A8%E5%9C%B0%E9%93%81%E4%B8%8A%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [08/Jun/2017 20:00:25] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [08/Jun/2017 20:02:27] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [08/Jun/2017 20:02:50] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E4%BA%8C%E5%8D%81%E4%B8%96%E7%BA%AA%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [08/Jun/2017 20:03:02] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC2011%E5%B9%B4%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [08/Jun/2017 20:03:43] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E4%B8%A4%E5%8D%83%E5%B9%B4%E7%9A%84%E6%AD%8C%E5%B9%B4%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [08/Jun/2017 20:04:52] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E4%B8%80%E5%87%A0%E5%B9%B4%E7%9A%84%E6%AD%8C%E7%9A%84%E6%AD%8C%E5%B9%B4%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [08/Jun/2017 20:06:48] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%9C%A8%E8%B7%AF%E4%B8%8A%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:16:14] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:16:14] "GET /favicon.ico HTTP/1.1" 404 -
+10.0.3.197 - - [09/Jun/2017 10:16:44] "GET /text/%E6%9D%A5%E9%A6%96%E8%BF%90%E5%8A%A8%E6%97%B6%E5%80%99%E5%90%AC%E5%BE%97%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:17:22] "GET /text/%E6%88%91%E6%83%B3%E5%9C%A8%E5%9C%B0%E9%93%81%E4%B8%8A%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E6%83%85%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:17:46] "GET /text/%E6%88%91%E6%83%B3%E5%9C%A8%E5%9C%B0%E9%93%81%E4%B8%8A%E5%90%AC90%E5%B9%B4%E4%BB%A3%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%94%B1%E7%9A%84%E6%83%85%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:18:53] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A%E9%87%91%E6%9B%B2 HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:19:02] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:19:13] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:19:26] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:19:37] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%83%85%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:19:45] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:20:27] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A62011%E5%B9%B4%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:21:01] "GET /text/%E6%88%91%E8%A6%81%E7%9D%A1%E8%A7%89%E4%BA%86%E6%94%BE%E4%B8%80%E9%A6%96%E5%91%A8%E6%9D%B0%E4%BC%A62011%E5%B9%B4%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:21:17] "GET /text/%E6%88%91%E8%A6%81%E7%9D%A1%E8%A7%89%E4%BA%86%E6%94%BE%E4%B8%80%E9%A6%96%E5%91%A8%E6%9D%B0%E4%BC%A62011%E5%B9%B4%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:21:24] "GET /text/%E6%88%91%E8%A6%81%E7%9D%A1%E8%A7%89%E4%BA%86%E6%94%BE%E4%B8%80%E9%A6%96%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:21:31] "GET /text/%E6%88%91%E8%A6%81%E7%9D%A1%E8%A7%89%E4%BA%86%E6%94%BE%E4%B8%80%E9%A6%96%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:21:47] "GET /text/%E6%88%91%E8%A6%81%E7%9D%A1%E8%A7%89%E4%BA%86%E6%94%BE%E4%B8%80%E9%A6%96%E5%91%A8%E6%9D%B0%E4%BC%A62011%E5%B9%B4%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:22:18] "GET /text/%E6%88%91%E8%A6%81%E7%9D%A1%E8%A7%89%E4%BA%86%E6%94%BE%E4%B8%80%E9%A6%96%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:22:32] "GET /text/%E6%88%91%E8%A6%81%E4%BC%91%E6%81%AF%E4%BA%86%E6%94%BE%E4%B8%80%E9%A6%96%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:22:38] "GET /text/%E6%88%91%E8%A6%81%E4%BC%91%E6%81%AF%E4%BA%86 HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:22:45] "GET /text/%E6%88%91%E8%A6%81%E4%BC%91%E6%81%AF%E4%BA%86 HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:23:13] "GET /text/%E6%88%91%E8%A6%81%E5%B7%A5%E4%BD%9C%E4%BA%86%E6%9D%A5%E9%A6%96%E5%8A%B2%E7%88%86%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:23:43] "GET /text/%E6%88%91%E6%83%B3%E8%BE%B9%E5%90%AC%E8%BD%BB%E9%9F%B3%E4%B9%90%E8%BE%B9%E5%B7%A5%E4%BD%9C%E4%BA%86 HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:24:08] "GET /text/%E6%88%91%E6%83%B3%E8%BE%B9%E5%90%AC90%E5%B9%B4%E4%BB%A3%E8%80%81%E6%AD%8C%E8%BE%B9%E5%B7%A5%E4%BD%9C%E4%BA%86 HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:24:27] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC90%E5%B9%B4%E4%BB%A3%E8%80%81%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:24:37] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC90%E5%B9%B4%E4%BB%A3 HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:24:45] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC90%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:24:53] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC90%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:25:05] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC90%E5%B9%B4%E4%BB%A3%E7%9A%84%E8%80%81%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:27:27] "GET /text/%E5%90%AC%E9%A6%96%E6%AD%8C%E8%A6%81%E5%AF%B9%E5%94%B1%E7%9A%84%E6%83%85%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:28:20] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E6%AC%A7%E7%BE%8E%E7%9A%84%E6%8E%92%E8%A1%8C%E6%A6%9C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:29:00] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E7%83%AD%E9%97%A8%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:29:31] "GET /text/%E8%B7%91%E6%AD%A5%E6%97%B6%E5%80%99%E5%90%AC%E7%82%B9%E5%BC%80%E5%BF%83%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:29:53] "GET /text/%E6%83%85%E4%BA%BA%E8%8A%82%E5%90%AC%E7%82%B9%E4%BB%80%E4%B9%88%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:30:09] "GET /text/%E6%92%AD%E6%94%BEnba%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:30:14] "GET /text/%E6%92%AD%E6%94%BEnba%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:30:20] "GET /text/%E6%92%AD%E6%94%BE%E8%B6%B3%E7%90%83%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 10:30:38] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E8%99%BE%E7%B1%B3%E6%8E%92%E8%A1%8C%E6%A6%9C HTTP/1.1" 200 -
+10.0.0.178 - - [09/Jun/2017 12:00:25] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.178 - - [09/Jun/2017 12:00:25] "GET /favicon.ico HTTP/1.1" 404 -
+10.0.0.178 - - [09/Jun/2017 12:00:42] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%99%88%E5%A5%95%E8%BF%85%E7%9A%84%E7%B2%A4%E8%AF%AD%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.178 - - [09/Jun/2017 12:00:52] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%99%88%E5%A5%95%E8%BF%85%E7%9A%84%E6%9C%80%E6%97%A9%E7%9A%84%E7%B2%A4%E8%AF%AD%E6%AD%8C HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/multithreads.py', reloading
+read: 0.016006 s
+read: 0.019766 s
+read: 0.013421 s
+read: 0.013935 s
+read: 0.016963 s
+read: 0.021978 s
+read: 0.030212 s
+read: 0.032664 s
+read: 0.018539 s
+read: 0.015105 s
+read: 0.015112 s
+read: 0.018294 s
+read: 0.024080 s
+read: 0.012830 s
+read: 0.013733 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f5d13bb3490>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f5d11579c90>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.165 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -102.991283
+nSV = 12037
+Traceback (most recent call last):
+  File "multithreads.py", line 9, in <module>
+    from query_preprocess import query_pre
+  File "/home/user/personal/pengfei/multithreads/multithreads/query_preprocess.py", line 24, in <module>
+    singer_synonym_file = open('./xiamifilters.prop')
+IOError: [Errno 2] No such file or directory: './xiamifilters.prop'
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fe98d9454d0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fe98b30bcd0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fe623c56490>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fe62161cc90>> ignored
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.165 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.160 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.1.201 - - [09/Jun/2017 15:59:10] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%98%BF%E5%A7%86%E7%9A%84%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E6%91%87%E6%BB%9Arap HTTP/1.1" 200 -
+10.0.1.201 - - [09/Jun/2017 15:59:19] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%9F%83%E7%B1%B3%E7%BA%B3%E5%A7%86%E7%9A%84%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E6%91%87%E6%BB%9Arap HTTP/1.1" 200 -
+10.0.1.201 - - [09/Jun/2017 15:59:37] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%BE%B7%E5%9B%BD%E6%88%98%E8%BD%A6%E7%9A%84%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E6%91%87%E6%BB%9A%E4%B9%90 HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/multithreads.py', reloading
+read: 0.016811 s
+read: 0.013979 s
+read: 0.021857 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fcf113704d0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fcf0ed37cd0>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.163 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+Traceback (most recent call last):
+  File "multithreads.py", line 97, in <module>
+    singer_file = open("/home/lulu/Desktop/vinci/svm/多线程/xiami_singer.dic","r")
+IOError: [Errno 2] No such file or directory: '/home/lulu/Desktop/vinci/svm/\xe5\xa4\x9a\xe7\xba\xbf\xe7\xa8\x8b/xiami_singer.dic'
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7effd58934d0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7effd325acd0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fc388afa4d0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fc3864c1cd0>> ignored
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.165 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.164 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.1.201 - - [09/Jun/2017 16:06:10] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%BE%B7%E5%9B%BD%E6%88%98%E8%BD%A6%E7%9A%84%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E6%91%87%E6%BB%9A%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [09/Jun/2017 16:06:20] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%82%93%E7%B4%AB%E6%A3%8B%E7%9A%84%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E6%91%87%E6%BB%9A%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [09/Jun/2017 16:06:29] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%95%BE%E5%93%88%E5%A8%9C%E7%9A%84%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E6%91%87%E6%BB%9A%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [09/Jun/2017 16:06:44] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%95%BE%E5%93%88%E5%A8%9C%E7%9A%842017%E5%B9%B4%E6%91%87%E6%BB%9A%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [09/Jun/2017 16:06:58] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%95%BE%E5%93%88%E5%A8%9C%E7%9A%842017%E5%B9%B4%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [09/Jun/2017 16:07:05] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%95%BE%E5%93%88%E5%A8%9C%E7%9A%842017%E5%B9%B4%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 16:08:08] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 16:08:08] "GET /favicon.ico HTTP/1.1" 404 -
+10.0.3.212 - - [09/Jun/2017 16:17:45] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py', reloading
+read: 0.021987 s
+read: 0.019381 s
+read: 0.019947 s
+read: 0.013995 s
+read: 0.019538 s
+read: 0.016281 s
+read: 0.084670 s
+read: 0.019343 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fb5ab8c94d0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fb5a9290cd0>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.164 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/timeprocess.py', reloading
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fbdcac214d0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fbdc85e9cd0>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.251 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py', reloading
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fd1cd273690>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fd1cac36e90>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.248 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py', reloading
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7ff5dde614d0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7ff5db826cd0>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.165 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/timeprocess.py', reloading
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f9120ced4d0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f911e6b2cd0>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.161 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.0.95 - - [09/Jun/2017 16:36:22] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%9D%8E%E7%99%BD HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 16:36:38] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%82%93%E7%B4%AB%E6%A3%8B%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 16:36:48] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%BE%B7%E5%9B%BD%E6%88%98%E8%BD%A6%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 16:39:41] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 16:39:46] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 16:40:00] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/timeprocess.py', reloading
+read: 0.017482 s
+read: 0.020213 s
+read: 0.019965 s
+read: 0.020329 s
+read: 0.020195 s
+read: 0.018288 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f79406c9690>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f793e08ee90>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.162 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py', reloading
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f54e83aa690>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f54e5d6de90>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.166 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.3.212 - - [09/Jun/2017 16:42:07] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 16:46:44] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 16:51:33] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 16:57:32] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:02:29] "GET /text/%E6%92%AD%E6%94%BE%E5%AE%89%E5%8F%88%E7%90%AA%E7%9A%84%E4%BD%A0%E5%A5%BD%E5%91%A8%E6%9D%B0%E4%BC%A6 HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/multithreads.py', reloading
+read: 0.018963 s
+read: 0.024202 s
+read: 0.015804 s
+read: 0.017514 s
+read: 0.022222 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f6af20314d0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f6aef9f6cd0>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.162 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.3.212 - - [09/Jun/2017 17:02:40] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E4%B8%8A%E4%B8%96%E7%BA%AA90%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f9e0a03a4d0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f9e07a01cd0>> ignored
+10.0.3.212 - - [09/Jun/2017 17:03:00] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E4%B8%AD%E5%9B%BD%E5%A5%BD%E6%AD%8C%E6%9B%B2%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+read: 0.014742 s
+read: 0.012542 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7efecd9e84d0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7efecb3accd0>> ignored
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.162 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.161 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.0.95 - - [09/Jun/2017 17:04:14] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC00%E5%B9%B4%E7%9A%84%E7%94%B7%E6%AD%8C%E6%89%8B%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:04:21] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%82%93%E7%B4%AB%E6%A3%8B%E7%9A%84%E7%94%B7%E6%AD%8C%E6%89%8B%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:04:34] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E6%96%B0%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:05:07] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E4%B8%8A%E4%B8%96%E7%BA%AA90%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/timeprocess.py', reloading
+read: 0.013615 s
+read: 0.019953 s
+read: 0.017598 s
+read: 0.011529 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fd26c2844d0>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fd269c48cd0>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.189 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.0.95 - - [09/Jun/2017 17:07:56] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%9D%8E%E7%99%BD HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:08:05] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E4%B8%A4%E5%8D%83%E5%B9%B4%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:09:07] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%92%8C%E9%99%88%E5%A5%95%E8%BF%85%E5%90%88%E5%94%B1%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:10:39] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%92%8C%E9%99%88%E5%A5%95%E8%BF%85%E5%90%88%E5%94%B1%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:10:53] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%AC%AC%E4%BA%8C%E5%BC%A0%E4%B8%93%E8%BE%91%E9%87%8C%E7%9A%84%E4%B8%BB%E6%89%93%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:11:00] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%AE%AB%E5%B4%8E%E9%AA%8F%E7%9A%84%E9%92%A2%E7%90%B4%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:11:05] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%AE%AB%E5%B4%8E%E9%AA%8F HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:11:19] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E4%B8%AD%E5%9B%BD%E5%A5%BD%E6%AD%8C%E6%9B%B2%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:11:28] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E4%B8%AD%E5%9B%BD%E5%A5%BD%E5%A3%B0%E9%9F%B3 HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:12:35] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%92%8C%E9%99%88%E5%A5%95%E8%BF%85%E5%90%88%E5%94%B1%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:13:04] "GET /text/%E6%94%BE%E7%82%B9%E6%A0%BC%E8%8E%B1%E7%BE%8E%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:26:39] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%92%8C%E9%99%88%E5%A5%95%E8%BF%85%E5%90%88%E5%94%B1%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:27:41] "GET /text/%E6%94%BE%E7%82%B9%E6%A0%BC%E8%8E%B1%E7%BE%8E%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:27:52] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E9%AC%BC%E5%90%B9%E7%81%AF HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:29:21] "GET /text/%E5%B0%8F%E8%9C%9C%E6%9D%A5%E4%B8%A4%E9%A6%96%E9%BB%84%E6%B2%BE%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/multithreads.py', reloading
+read: 0.016233 s
+read: 0.015551 s
+read: 0.012879 s
+read: 0.013785 s
+read: 0.014362 s
+read: 0.015509 s
+read: 0.014336 s
+read: 0.012389 s
+read: 0.014507 s
+read: 0.014263 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fb13b81a690>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fb1391e0e90>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.161 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.0.95 - - [09/Jun/2017 17:30:35] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%92%8C%E9%99%88%E5%A5%95%E8%BF%85%E5%90%88%E5%94%B1%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:31:09] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%92%8C%E9%99%88%E5%A5%95%E8%BF%85%E5%90%88%E5%94%B1%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:33:18] "GET /text/%E5%80%A9%E5%A5%B3%E5%B9%BD%E9%AD%82%E5%BC%A0%E5%9B%BD%E8%8D%A3%E7%9A%84 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:33:34] "GET /text/%E5%B0%8F%E8%8B%B9%E6%9E%9C%E7%AD%B7%E5%AD%90%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F%E7%9A%84%E5%B0%8F%E8%8B%B9%E6%9E%9C HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:33:51] "GET /text/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%E6%88%91%E8%A6%81%E5%90%AC HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:34:03] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E7%8E%8B%E5%AD%90%E7%9A%84%E6%96%B0%E8%A1%A3 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:34:38] "GET /text/%E6%92%AD%E9%9F%A9%E7%BA%A2%E5%94%B1%E7%9A%84%E9%9D%92%E8%97%8F%E9%AB%98%E5%8E%9F HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/timeprocess.py', reloading
+read: 0.023328 s
+read: 0.020351 s
+read: 0.035204 s
+read: 0.030932 s
+read: 0.012691 s
+read: 0.012705 s
+read: 0.064196 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7efdd2818510>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7efdd01dad10>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.162 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.0.95 - - [09/Jun/2017 17:36:15] "GET /text/%E6%88%91%E8%A6%81%E5%90%AC%E4%B8%8A%E4%B8%96%E7%BA%AA%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:38:09] "GET /text/%E6%92%AD%E9%9D%92%E8%97%8F%E9%AB%98%E5%8E%9F HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:38:09] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:38:17] "GET /text/%E6%88%91%E6%83%B3%E5%9C%A8%E5%9C%B0%E9%93%81%E4%B8%8A%E5%90%AC90%E5%B9%B4%E4%BB%A3%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%94%B1%E7%9A%84%E6%83%85%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:39:24] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:40:27] "GET /text/%E6%92%AD%E6%94%BE%E9%9D%92%E8%97%8F%E9%AB%98%E5%8E%9F HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:40:31] "GET /text/%E6%92%AD%E9%9D%92%E8%97%8F%E9%AB%98%E5%8E%9F HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:40:38] "GET /text/%E6%92%AD%E6%94%BE%E9%9D%92%E8%97%8F%E9%AB%98%E5%8E%9F HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:41:23] "GET /text/%E6%92%AD%E6%94%BE%E9%9D%92%E8%97%8F%E9%AB%98%E5%8E%9F HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:42:01] "GET /text/%E6%92%AD%E9%9D%92%E8%97%8F%E9%AB%98%E5%8E%9F HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:47:31] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:47:55] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:47:58] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:48:03] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:48:07] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:49:00] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:49:08] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:49:45] "GET /text/%E7%BB%99%E6%88%91%E6%9D%A5%E4%B8%80%E9%A6%96%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:49:52] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:50:12] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:50:20] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:50:32] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E6%91%87%E6%BB%9A%E6%AD%8C HTTP/1.1" 200 -
+10.0.0.95 - - [09/Jun/2017 17:50:38] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:50:41] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 17:50:49] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:51:20] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%96%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.3.197 - - [09/Jun/2017 17:51:32] "GET /text/%E6%9D%A5%E4%B8%80%E9%A6%9690%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/timeprocess.py', reloading
+read: 0.016421 s
+read: 0.022463 s
+read: 0.016132 s
+read: 0.019527 s
+read: 0.012769 s
+read: 0.039444 s
+read: 0.019145 s
+read: 0.022524 s
+read: 0.024391 s
+read: 0.017874 s
+read: 0.018707 s
+read: 0.014094 s
+read: 0.017435 s
+read: 0.022657 s
+read: 0.017590 s
+read: 0.018417 s
+read: 0.012787 s
+read: 0.013927 s
+read: 0.015846 s
+read: 0.013693 s
+read: 0.013279 s
+read: 0.017711 s
+read: 0.016490 s
+read: 0.012756 s
+read: 0.021502 s
+read: 0.013581 s
+read: 0.012385 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f508c972690>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f508a336e90>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.161 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.0.95 - - [09/Jun/2017 17:59:59] "GET /text/%E6%88%91%E6%83%B390%E5%B9%B4%E4%BB%A3%E6%91%87%E6%BB%9A HTTP/1.1" 200 -
+10.0.1.201 - - [09/Jun/2017 18:01:44] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%95%BE%E5%93%88%E5%A8%9C%E7%9A%842017%E5%B9%B4%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [09/Jun/2017 18:02:05] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%92%8C%E9%99%88%E5%A5%95%E8%BF%85%E7%9A%84%E5%90%88%E5%94%B1 HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/multithreads.py', reloading
+read: 0.021240 s
+read: 0.021159 s
+read: 0.037729 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f9e5ca01690>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f9e5a3c5e90>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.161 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.1.201 - - [09/Jun/2017 18:07:52] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%92%8C%E9%99%88%E5%A5%95%E8%BF%85%E7%9A%84%E5%90%88%E5%94%B1 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:30:03] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:30:59] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:31:09] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:31:31] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:31:38] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:31:53] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:32:04] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:32:23] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:32:35] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:34:55] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:36:11] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:36:25] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:36:53] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:36:58] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.3.212 - - [09/Jun/2017 18:37:22] "GET /text/我要听周杰伦和陈奕迅合唱的歌 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 10:08:03] "GET /favicon.ico HTTP/1.1" 404 -
+10.0.3.212 - - [10/Jun/2017 10:11:45] "GET /text/%E6%92%AD%E9%9D%92%E8%97%8F%E9%AB%98%E5%8E%9F HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 11:54:36] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%95%BE%E5%93%88%E5%A8%9C%E7%9A%842017%E5%B9%B4%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 11:55:16] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%95%BE%E5%93%88%E5%A8%9C%E7%9A%842017%E5%B9%B4%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 11:55:18] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%95%BE%E5%93%88%E5%A8%9C%E7%9A%842017%E5%B9%B4%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 11:55:19] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%95%BE%E5%93%88%E5%A8%9C%E7%9A%842017%E5%B9%B4%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 11:55:57] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%98%BF%E5%A7%86%E7%9A%842017%E5%B9%B4%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 11:56:00] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%98%BF%E5%A7%86%E7%9A%842017%E5%B9%B4%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 11:56:00] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%98%BF%E5%A7%86%E7%9A%842017%E5%B9%B4%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 11:56:07] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%842017%E5%B9%B4%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 11:56:55] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 11:58:43] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 11:59:56] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%AE%89%E9%9D%99%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 12:00:54] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E8%8B%A5%E8%8B%B1%E7%9A%84%E5%90%8E%E6%9D%A5 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 12:03:05] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC2017%E5%B9%B4%E7%9A%84%E4%B9%A1%E6%9D%91%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 12:18:35] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%98%BF%E5%A7%86%E7%9A%842017%E5%B9%B4%E7%9A%84%E4%B9%A1%E6%9D%91%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 13:18:58] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%842017%E5%B9%B4%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 13:19:56] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 13:20:01] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 13:23:33] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC2017%E5%B9%B4%E7%9A%84%E4%BC%91%E9%97%B2%E4%B9%A1%E6%9D%91%E5%90%88%E5%94%B1%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 13:29:23] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A62017%E5%B9%B4%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 13:34:19] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 13:36:36] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E9%9D%92%E8%8A%B1%E7%93%B7 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 13:40:29] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 13:41:08] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%9D%92%E8%8A%B1%E7%93%B7 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:11:21] "GET /favicon.ico HTTP/1.1" 404 -
+10.0.1.201 - - [10/Jun/2017 14:11:51] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%92%8C%E9%99%88%E5%A5%95%E8%BF%85%E7%9A%84%E5%90%88%E5%94%B1 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:14:22] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%94%B1%E7%9A%84%E7%9A%84%E5%90%88%E5%94%B1 HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py', reloading
+read: 0.026301 s
+read: 0.019151 s
+read: 0.019590 s
+read: 0.015286 s
+read: 0.015677 s
+read: 0.018874 s
+read: 0.038688 s
+read: 0.018242 s
+read: 0.019575 s
+read: 0.015343 s
+read: 0.015541 s
+read: 0.019415 s
+read: 0.015762 s
+read: 0.015912 s
+read: 0.014928 s
+read: 0.015610 s
+read: 0.013556 s
+read: 0.018029 s
+read: 0.012224 s
+read: 0.012263 s
+read: 0.012154 s
+read: 0.011796 s
+read: 0.015139 s
+read: 0.011457 s
+read: 0.020364 s
+read: 0.017568 s
+read: 0.018293 s
+read: 0.014970 s
+read: 0.015671 s
+read: 0.012331 s
+read: 0.013948 s
+read: 0.017276 s
+read: 0.015386 s
+read: 0.014639 s
+read: 0.011656 s
+read: 0.014535 s
+read: 0.018049 s
+read: 0.014247 s
+read: 0.022962 s
+read: 0.011976 s
+read: 0.017297 s
+read: 0.015143 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f20ce460510>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f20cbe21d10>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.162 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.1.201 - - [10/Jun/2017 14:21:27] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%9D%92%E8%8A%B1%E7%93%B7 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:21:56] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E7%8B%AC%E5%94%B1 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:22:24] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%95%BE%E5%93%88%E5%A8%9C%E7%9A%84%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E7%8B%AC%E5%94%B1 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:22:30] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%98%BF%E5%A7%86%E7%9A%84%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E7%8B%AC%E5%94%B1 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:22:40] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E7%8B%AC%E5%94%B1 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:22:48] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E7%8B%AC%E5%94%B1%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/multithreads.py', reloading
+read: 0.014362 s
+read: 0.019811 s
+read: 0.015495 s
+read: 0.011720 s
+read: 0.012203 s
+read: 0.011075 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f54d2554510>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f54cff16d10>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.162 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.1.201 - - [10/Jun/2017 14:28:58] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E7%8B%AC%E5%94%B1%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:29:19] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:29:30] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E7%9A%84%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/multithreads.py', reloading
+read: 0.014807 s
+read: 0.012518 s
+read: 0.016229 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7ff06b600510>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7ff068fc1d10>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.252 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.1.201 - - [10/Jun/2017 14:30:37] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E7%9A%84%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:30:44] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%AE%89%E9%9D%99%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:31:21] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%98%BF%E5%A7%86%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%AE%89%E9%9D%99%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:31:25] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%98%BF%E5%A7%86%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%AE%89%E9%9D%99%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:31:33] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%95%BE%E5%93%88%E5%A8%9C%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E5%AE%89%E9%9D%99%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:32:33] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%BE%B7%E5%9B%BD%E6%88%98%E8%BD%A6%E7%9A%84%E4%BB%A3%E5%AE%89%E9%9D%99%E7%9A%84%E6%91%87%E6%BB%9A%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:32:42] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%95%BE%E5%93%88%E5%A8%9C%E7%9A%84%E4%BB%A3%E5%AE%89%E9%9D%99%E7%9A%84%E6%91%87%E6%BB%9A%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:33:07] "GET /text/query=%E6%88%91%E6%83%B3%E5%90%AC%E9%9D%92%E8%8A%B1%E7%93%B7 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:33:33] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%9D%92%E8%8A%B1%E7%93%B7 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:33:48] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E9%9D%92%E8%8A%B1%E7%93%B7 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:34:33] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%BE%B7%E5%9B%BD%E6%88%98%E8%BD%A6%E7%9A%84%E4%BB%A3%E5%AE%89%E9%9D%99%E7%9A%84%E6%91%87%E6%BB%9A%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:35:32] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:35:49] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E7%BD%97%E8%BE%91%E6%80%9D%E7%BB%B4 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:36:01] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E7%BD%97%E8%BE%91 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:36:03] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E7%BD%97 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:36:05] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:36:13] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%AD%8C HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:36:21] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%B0%B4%E5%A3%B6 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:36:25] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%B0%B4%E6%B5%92 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:36:31] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%B0%B4%E6%B5%92%E8%BD%AC HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:36:37] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%B0%B4%E6%B5%92%E4%BC%A0 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:36:55] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84%E6%AD%8C HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:37:17] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:37:30] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:38:24] "GET /text/%E6%88%91%E4%B8%8D%E5%BC%80%E5%BF%83 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:38:32] "GET /text/%E5%9C%A8%E9%85%92%E5%90%A7 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:38:34] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%AE%89%E9%9D%99%E7%9A%84%E6%91%87%E6%BB%9A%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:38:42] "GET /text/%E5%9C%A8ditie HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:38:58] "GET /text/%E5%9C%A8%E5%9C%B0%E9%93%81%E9%87%8C HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:39:01] "GET /text/%E5%9C%A8%E5%9C%B0%E9%93%81 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:39:05] "GET /text/%E5%9C%A8%E5%9C%B0%E9%93%81 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:39:28] "GET /text/%E5%9C%A8%E4%B8%8A%E7%8F%AD HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:39:31] "GET /text/%E5%9C%A8%E4%B8%8A%E7%8F%AD HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:39:32] "GET /text/%E5%9C%A8%E4%B8%8A%E7%8F%AD HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:39:35] "GET /text/%E5%9C%A8%E4%B8%8A%E7%8F%AD HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:39:37] "GET /text/%E5%9C%A8%E4%B8%8A%E7%8F%AD%E4%BA%86 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:39:54] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C%E7%89%88 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 133, in test_f
+    t2 = threading.Thread(target=worker_genre(question, q))
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 26, in worker_genre
+    return_string=output_genre(line)
+  File "/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py", line 137, in output_genre
+    tmp_split.remove('None')
+ValueError: list.remove(x): x not in list
+10.0.1.79 - - [10/Jun/2017 14:40:02] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C%E7%89%88 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 133, in test_f
+    t2 = threading.Thread(target=worker_genre(question, q))
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 26, in worker_genre
+    return_string=output_genre(line)
+  File "/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py", line 137, in output_genre
+    tmp_split.remove('None')
+ValueError: list.remove(x): x not in list
+10.0.1.79 - - [10/Jun/2017 14:40:04] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C%E7%89%88 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 133, in test_f
+    t2 = threading.Thread(target=worker_genre(question, q))
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 26, in worker_genre
+    return_string=output_genre(line)
+  File "/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py", line 137, in output_genre
+    tmp_split.remove('None')
+ValueError: list.remove(x): x not in list
+10.0.1.79 - - [10/Jun/2017 14:40:05] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C%E7%89%88 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 133, in test_f
+    t2 = threading.Thread(target=worker_genre(question, q))
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 26, in worker_genre
+    return_string=output_genre(line)
+  File "/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py", line 137, in output_genre
+    tmp_split.remove('None')
+ValueError: list.remove(x): x not in list
+10.0.1.79 - - [10/Jun/2017 14:40:07] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C%E7%89%88 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 133, in test_f
+    t2 = threading.Thread(target=worker_genre(question, q))
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 26, in worker_genre
+    return_string=output_genre(line)
+  File "/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py", line 137, in output_genre
+    tmp_split.remove('None')
+ValueError: list.remove(x): x not in list
+10.0.1.79 - - [10/Jun/2017 14:40:08] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C%E7%89%88 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 133, in test_f
+    t2 = threading.Thread(target=worker_genre(question, q))
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 26, in worker_genre
+    return_string=output_genre(line)
+  File "/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py", line 137, in output_genre
+    tmp_split.remove('None')
+ValueError: list.remove(x): x not in list
+10.0.1.79 - - [10/Jun/2017 14:40:09] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C%E7%89%88 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 133, in test_f
+    t2 = threading.Thread(target=worker_genre(question, q))
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 26, in worker_genre
+    return_string=output_genre(line)
+  File "/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py", line 137, in output_genre
+    tmp_split.remove('None')
+ValueError: list.remove(x): x not in list
+10.0.1.79 - - [10/Jun/2017 14:40:11] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C%E7%89%88 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 133, in test_f
+    t2 = threading.Thread(target=worker_genre(question, q))
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 26, in worker_genre
+    return_string=output_genre(line)
+  File "/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py", line 137, in output_genre
+    tmp_split.remove('None')
+ValueError: list.remove(x): x not in list
+10.0.1.79 - - [10/Jun/2017 14:40:14] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 133, in test_f
+    t2 = threading.Thread(target=worker_genre(question, q))
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 26, in worker_genre
+    return_string=output_genre(line)
+  File "/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py", line 137, in output_genre
+    tmp_split.remove('None')
+ValueError: list.remove(x): x not in list
+10.0.1.201 - - [10/Jun/2017 14:40:21] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%AE%89%E9%9D%99%E7%9A%84%E6%91%87%E6%BB%9A%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:40:29] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 133, in test_f
+    t2 = threading.Thread(target=worker_genre(question, q))
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 26, in worker_genre
+    return_string=output_genre(line)
+  File "/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py", line 137, in output_genre
+    tmp_split.remove('None')
+ValueError: list.remove(x): x not in list
+10.0.1.201 - - [10/Jun/2017 14:40:29] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:40:29] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:40:29] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:40:29] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:40:29] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:40:38] "GET /text/%E5%88%98%E5%BE%B7%E5%8D%8E HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:40:47] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/.local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 133, in test_f
+    t2 = threading.Thread(target=worker_genre(question, q))
+  File "/home/user/personal/pengfei/multithreads/multithreads/multithreads.py", line 26, in worker_genre
+    return_string=output_genre(line)
+  File "/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py", line 137, in output_genre
+    tmp_split.remove('None')
+ValueError: list.remove(x): x not in list
+10.0.1.79 - - [10/Jun/2017 14:40:51] "GET /text/%E8%8B%B1%E8%AF%AD HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/genreprocess.py', reloading
+read: 0.019244 s
+read: 0.012522 s
+read: 0.012077 s
+read: 0.011435 s
+read: 0.014087 s
+read: 0.025160 s
+read: 0.031570 s
+read: 0.011467 s
+read: 0.010449 s
+read: 0.012377 s
+read: 0.023874 s
+read: 0.011145 s
+read: 0.012372 s
+read: 0.015561 s
+read: 0.014974 s
+read: 0.011494 s
+read: 0.011219 s
+read: 0.011659 s
+read: 0.011780 s
+read: 0.011478 s
+read: 0.010957 s
+read: 0.011198 s
+read: 0.016004 s
+read: 0.019785 s
+read: 0.011193 s
+read: 0.011423 s
+read: 0.011308 s
+read: 0.012469 s
+read: 0.016133 s
+read: 0.012731 s
+read: 0.012185 s
+read: 0.011679 s
+read: 0.012322 s
+read: 0.011048 s
+read: 0.014868 s
+read: 0.014974 s
+read: 0.013559 s
+read: 0.015417 s
+read: 0.011244 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fc9d23ca510>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7fc9cfd8bd10>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.157 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.1.201 - - [10/Jun/2017 14:42:04] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:42:46] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%91%87%E6%BB%9Arap%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3 HTTP/1.1" 200 -
+10.0.0.95 - - [10/Jun/2017 14:43:50] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E6%9D%8E%E7%99%BD HTTP/1.1" 200 -
+10.0.0.95 - - [10/Jun/2017 14:44:03] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E5%90%88%E5%94%B1 HTTP/1.1" 200 -
+10.0.0.95 - - [10/Jun/2017 14:44:15] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E5%90%88%E5%94%B1%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [10/Jun/2017 14:45:03] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E5%90%88%E5%94%B1%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.0.95 - - [10/Jun/2017 14:45:50] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E5%AE%89%E9%9D%99%E7%9A%84%E6%91%87%E6%BB%9A%E4%B9%90 HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/multithreads.py', reloading
+read: 0.014682 s
+read: 0.011568 s
+read: 0.014109 s
+read: 0.018897 s
+read: 0.017523 s
+read: 0.034104 s
+read: 0.012089 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f6d3b5b0510>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f6d38f72d10>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.164 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.0.95 - - [10/Jun/2017 14:47:28] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E5%AE%89%E9%9D%99%E7%9A%84%E6%91%87%E6%BB%9A%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:48:10] "GET /text/%E8%8B%B1%E8%AF%ADbanben HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:48:18] "GET /text/%E8%8B%B1%E8%AF%AD%E6%8E%92%E8%A1%8C%E6%A6%9C HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:49:15] "GET /text/%E5%90%88%E5%94%B1 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:49:24] "GET /text/%E8%8B%B1%E8%AF%AD%E5%90%88%E5%94%B1 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:49:37] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%8B%B1%E8%AF%AD%E5%90%88%E5%94%B1 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:49:40] "GET /text/%E8%8B%B1%E8%AF%AD%E5%90%88%E5%94%B1gequ HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:49:43] "GET /text/%E8%8B%B1%E8%AF%AD%E5%90%88%E5%94%B1%E6%AD%8C HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:49:45] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%8B%B1%E8%AF%AD%E5%90%88%E5%94%B1%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:49:48] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%8B%B1%E8%AF%AD%E5%90%88%E5%94%B1%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 14:49:50] "GET /text/%E5%90%88%E5%94%B1%E6%AD%8C HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:51:09] "GET /text/%E7%BB%99%E6%88%91%E6%9D%A5%E4%B8%AA%E4%B8%8A%E4%B8%96%E7%BA%AA%E4%B9%9D%E5%8D%81%E5%B9%B4%E4%BB%A3%E7%9A%84rock HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:51:28] "GET /text/%E6%92%AD%E6%94%BEhebe%E7%9A%84%E8%BD%BB%E6%9D%BE%E6%AC%A2%E5%BF%AB%E7%9A%84%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:51:56] "GET /text/%E6%9D%A5%E4%B8%80%E4%B8%AA%E9%83%8E%E6%9C%97%E6%82%B2%E4%BC%A4%E7%9A%84%E8%BD%BB%E9%9F%B3%E4%B9%90 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:52:29] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%92%8C%E9%99%88%E5%A5%95%E8%BF%85%E7%9A%84%E5%90%88%E5%94%B1 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:52:38] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%92%8C%E9%99%88%E5%A5%95%E8%BF%85%E7%9A%84%E5%AE%89%E9%9D%99%E7%9A%84%E5%90%88%E5%94%B1 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:52:46] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E5%91%A8%E6%9D%B0%E4%BC%A6%E5%92%8C%E9%99%88%E5%A5%95%E8%BF%85%E7%9A%84%E5%90%88%E5%94%B1 HTTP/1.1" 200 -
+10.0.1.201 - - [10/Jun/2017 14:52:57] "GET /text/%E6%88%91%E6%83%B3%E5%90%AC%E8%8B%B1%E8%AF%AD%E5%90%88%E5%94%B1%E6%AD%8C%E6%9B%B2 HTTP/1.1" 200 -
+ * Detected change in '/home/user/personal/pengfei/multithreads/multithreads/multithreads.py', reloading
+read: 0.020322 s
+read: 0.012357 s
+read: 0.011487 s
+read: 0.011818 s
+read: 0.010920 s
+read: 0.016478 s
+read: 0.035431 s
+read: 0.011342 s
+read: 0.011857 s
+read: 0.011450 s
+read: 0.011967 s
+read: 0.012239 s
+read: 0.011913 s
+read: 0.018953 s
+read: 0.016035 s
+read: 0.015457 s
+read: 0.018738 s
+read: 0.011504 s
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f5af0298510>> ignored
+Exception AttributeError: "'NoneType' object has no attribute 'path'" in <bound method Grocery.__del__ of <tgrocery.Grocery object at 0x7f5aedc59d10>> ignored
+ * Restarting with stat
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.161 seconds.
+Prefix dict has been built succesfully.
+**
+optimization finished, #iter = 5
+Objective value = -26.512740
+nSV = 743
+***
+optimization finished, #iter = 6
+Objective value = -105.044256
+nSV = 12121
+ * Debugger is active!
+ * Debugger PIN: 599-605-261
+10.0.1.79 - - [10/Jun/2017 14:58:24] "GET /text/%E5%88%98%E5%BE%B7%E5%8D%8E HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 15:01:38] "GET /text/%E5%88%98%E5%BE%B7%E5%8D%8E HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 15:01:43] "GET /text/%E5%88%98%E5%BE%B7 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 15:02:02] "GET /text/%E6%A2%85%E8%8A%B1 HTTP/1.1" 200 -
+10.0.1.79 - - [10/Jun/2017 15:02:09] "GET /text/%E6%A2%85 HTTP/1.1" 200 -
