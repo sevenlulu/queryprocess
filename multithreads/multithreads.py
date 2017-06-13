@@ -215,7 +215,7 @@ def test_f(question):
             res = {"code": 200, "data": {}, "msg": ""}
             data_dic = {}
             for line in result_dic:
-                if result_dic[line] != ["None"] and result_dic[line] != "None" and result_dic[line] != check_time_dic:
+                if result_dic[line] != ["None"] and result_dic[line] != "None" and result_dic[line] != check_time_dic and result_dic[line] != [""]:
                     data_dic[line] = result_dic[line]
 
             res["data"] = data_dic
