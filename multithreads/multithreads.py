@@ -212,17 +212,50 @@ def test_f(question):
 
             #process return data structure
             check_time_dic = {"time_higher": "None", "time_lower": "None"}
+            res = {"code": 200, "data": {}, "msg": ""}
+            data_dic = {}
             for line in result_dic:
-                if result_dic[line] == ["None"]:        #genre and artist are ["None"]
-                    result_dic[line] = []
-                if result_dic[line] == "None":          #song is "None"
-                    result_dic[line] = ""
-                if result_dic[line] == check_time_dic:  #time is {"None"}
-                    result_dic[line] = {}
+                if result_dic[line] != ["None"] and result_dic[line] != "None" and result_dic[line] != check_time_dic:
+                    data_dic[line] = result_dic[line]
 
-            return json.dumps(result_dic,ensure_ascii=False)
+            res["data"] = data_dic
+
+            if res["data"] == {}:
+                res.pop("data")
+            
+            if res["code"] != 200:
+                res.pop("data")
+                res["msg"] = "error"
+
+            if res["msg"] == "":
+                res.pop("msg")
+            return json.dumps(res,ensure_ascii=False)
         elif test[1]==0:
-            return json.dumps(test[0],ensure_ascii=False)
+            #process return data structure
+            res = {"code": 200, "data": {}, "msg": ""}
+            if test[0]["artist"] == "None":
+                test[0].pop("artist")
+            else:
+                test[0]["artist"] = [test[0]["artist"]]
+            
+            if test[0]["song"] == "None":
+                test[0].pop("song")
+
+            data_dic = test[0]
+
+            res["data"] = data_dic
+
+            if res["data"] == {}:
+                res.pop("data")
+            
+            if res["code"] != 200:
+                res.pop("data")
+                res["msg"] = "error"
+
+            if res["msg"] == "":
+                res.pop("msg")
+
+            return json.dumps(res,ensure_ascii=False)
         
 
 if __name__=='__main__':
