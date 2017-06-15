@@ -115,27 +115,32 @@ def check_artist(word):
 
 def output_genre(question):
     string=check(question)
-    add_string=check_artist(question)
+    #add_string=check_artist(question)
     
-    
-    if string is None and add_string is None:
+    if string is None:
         tmp={'genre':'None'}
-
-    elif string is None and add_string is not None:
-        tmp={}
-        tmp_split=add_string.split(' ')
-        tmp={'genre':tmp_split}
-
-    elif string is not None and add_string is None:
+    else:
         tmp={}
         tmp_split=string.split(' ')
         tmp={'genre':tmp_split}
+    
+    # if string is None :
+    #     tmp={'genre':'None'}
 
-    elif string is not None and add_string is not None:
-        tmp={}
-        tmp_split=(string+' '+add_string).split(' ')
-        if 'None' in tmp_split:
-            tmp_split.remove('None')
-        tmp={'genre':tmp_split}
+    # elif string is None and add_string is not None:
+    #     tmp={}
+    #     tmp_split=add_string.split(' ')
+    #     tmp={'genre':tmp_split}
+
+    # elif string is not None and add_string is None:
+    #     tmp={}
+    #     tmp_split=string.split(' ')
+    #     tmp={'genre':tmp_split}
+
+    # elif string is not None and add_string is not None:
+    #     tmp={}
+    #     tmp_split=(string+' '+add_string).split(' ')
+    #     tmp={'genre':tmp_split}
 
     return tmp
+
