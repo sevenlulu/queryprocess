@@ -1,6 +1,6 @@
 #!/usr/bin/env python   
 # -*- coding: UTF-8 -*- 
-import sys
+import sys,os
 reload(sys)
 sys.setdefaultencoding('utf8')
 
@@ -15,7 +15,7 @@ import Queue
 import requests
 from collections import Counter
 from flask import Flask
-
+import ConfigParser
   
 
 
@@ -31,7 +31,7 @@ def worker_name(line,q,exception_flag,exception):
     line = line.lower()
     start_name = time.clock()
 
-    url = 'http://101.200.159.42:9001/vinci/naturelang/v2/metasearch?query='+line
+    url = config[0][1]+line
     try:
         r = requests.post(url, timeout=1)
     except requests.RequestException as e:
@@ -90,7 +90,7 @@ def song_name(line,q, exception_flag, exception):
     line = line.lower()
     start_name = time.clock()
 
-    url = 'http://101.200.159.42:9001/vinci/naturelang/v2/metasearch?query='+line
+    url = config[0][1]+line
     try:
         r = requests.post(url, timeout=1)
     except requests.RequestException as e:
@@ -128,7 +128,7 @@ def song_name(line,q, exception_flag, exception):
 
 
 def worker_name_single(line,p, exception_flag, exception):
-    url='http://101.200.159.42:9001/vinci/naturelang/v2/getsemantic?query='+line
+    url=config[1][1]+line
     try:
         r = requests.post(url, timeout=1)
         r.raise_for_status()
@@ -157,10 +157,12 @@ def worker_name_single(line,p, exception_flag, exception):
             }
             p.put([tmp,0])
 
-
+cf = ConfigParser.ConfigParser()
+cf.read(os.path.dirname(sys.argv[0])+"/query.conf")
+config = cf.items("local")
 
 all_singers=[]
-singer_file = open("/home/lulu/Desktop/vinci/svm/server/multithreads/data/xiami_singer.dic","r")
+singer_file = open(config[2][1]+"/data/xiami_singer.dic","r")
 lines = singer_file.readlines()
 for line in lines:
     all_singers.append(line.strip("\n"))
@@ -168,7 +170,7 @@ singer_file.close()
 
 synonym = {}
 tup_in_synonym = [] 
-synonym_file = open("/home/lulu/Desktop/vinci/svm/server/multithreads/data/synonym.txt")
+synonym_file = open(config[2][1]+"/data/synonym.txt")
 synonym_pair = synonym_file.readlines()
 for line in synonym_pair:
     tup_in_synonym = line.split('\t')
