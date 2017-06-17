@@ -158,7 +158,7 @@ def worker_name_single(line,p, exception_flag, exception):
             p.put([tmp,0])
 
 cf = ConfigParser.ConfigParser()
-cf.read(os.path.dirname(sys.argv[0])+"/query.conf")
+cf.read(os.path.abspath(os.path.curdir)+"/query.conf")
 config = cf.items("server")
 
 all_singers=[]

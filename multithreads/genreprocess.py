@@ -10,7 +10,7 @@ import operator
 from tgrocery import Grocery 
 
 #loading training file and make training data
-f = file(os.path.dirname(sys.argv[0])+"/data/addition.json")
+f = file(os.path.abspath(os.path.curdir)+"/data/addition.json")
 s = json.load(f)
 f.close
 
@@ -33,7 +33,7 @@ new_grocery_artist.load()
 
 
 #loading training file and make training data
-f = file(os.path.dirname(sys.argv[0])+"/data/localRecommend.json")
+f = file(os.path.abspath(os.path.curdir)+"/data/localRecommend.json")
 s = json.load(f)
 f.close
 
