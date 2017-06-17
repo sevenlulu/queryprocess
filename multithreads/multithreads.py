@@ -159,7 +159,7 @@ def worker_name_single(line,p, exception_flag, exception):
 
 cf = ConfigParser.ConfigParser()
 cf.read(os.path.dirname(sys.argv[0])+"/query.conf")
-config = cf.items("local")
+config = cf.items("server")
 
 all_singers=[]
 singer_file = open(config[2][1]+"/data/xiami_singer.dic","r")

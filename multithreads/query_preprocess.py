@@ -5,7 +5,7 @@
 
 #!/usr/bin/env python   
 
-import sys
+import sys, os
 reload(sys)
 sys.setdefaultencoding('UTF-8')
 
@@ -21,7 +21,7 @@ import json
 #首先读出歌手同义词词典中的歌手信息
 singer_synonym_dict = {}
 tup_in_dict = []
-singer_synonym_file = open('/home/lulu/Desktop/vinci/svm/server/multithreads/data/xiamifilters.prop')
+singer_synonym_file = open(os.path.dirname(sys.argv[0])+'/data/xiamifilters.prop')
 for line in singer_synonym_file:
     tup_in_dict = line.split('=')
     singer_synonym_dict[tup_in_dict[0]] = tup_in_dict[1].replace('\n','')
@@ -45,7 +45,7 @@ singer_custom_list = list(set(singer_custom_list))
 
 # In[5]:
 
-singer_custom_dict = open('/home/lulu/Desktop/vinci/svm/server/multithreads/data/singer_custom_dict.txt', 'w')
+singer_custom_dict = open(os.path.dirname(sys.argv[0])+'/data/singer_custom_dict.txt', 'w')
 for word in singer_custom_list: 
     singer_custom_dict.write(word)
     singer_custom_dict.write('\n')
@@ -54,7 +54,7 @@ singer_custom_dict.close()
 
 # In[6]:
 
-jieba.load_userdict('/home/lulu/Desktop/vinci/svm/server/multithreads/data/singer_custom_dict.txt')
+jieba.load_userdict(os.path.dirname(sys.argv[0])+'/data/singer_custom_dict.txt')
 
 
 # In[11]:
