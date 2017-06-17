@@ -33,7 +33,7 @@ def worker_name(line,q,exception_flag,exception):
 
     url = config[0][1]+line
     try:
-        r = requests.post(url, timeout=1)
+        r = requests.post(url, timeout=2)
     except requests.RequestException as e:
         exception_flag.append(1)
         exc = repr(e).split("(")
@@ -92,7 +92,7 @@ def song_name(line,q, exception_flag, exception):
 
     url = config[0][1]+line
     try:
-        r = requests.post(url, timeout=1)
+        r = requests.post(url, timeout=2)
     except requests.RequestException as e:
         exception_flag.append(1)
         exc = repr(e).split("(")
@@ -130,7 +130,7 @@ def song_name(line,q, exception_flag, exception):
 def worker_name_single(line,p, exception_flag, exception):
     url=config[1][1]+line
     try:
-        r = requests.post(url, timeout=1)
+        r = requests.post(url, timeout=2)
         r.raise_for_status()
     except requests.RequestException as e:
         exception_flag.append(1)

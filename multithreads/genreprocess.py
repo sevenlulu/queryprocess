@@ -1,15 +1,16 @@
 #!/usr/bin/env python   
 # -*- coding: UTF-8 -*- 
-import sys
+import sys, os
 reload(sys)
 sys.setdefaultencoding('UTF-8')
 
 import json
+import random
 import operator
 from tgrocery import Grocery 
 
 #loading training file and make training data
-f = file("/home/lulu/Desktop/vinci/svm/server/multithreads/data/addition.json")
+f = file(os.path.dirname(sys.argv[0])+"/data/addition.json")
 s = json.load(f)
 f.close
 
@@ -32,7 +33,7 @@ new_grocery_artist.load()
 
 
 #loading training file and make training data
-f = file("/home/lulu/Desktop/vinci/svm/server/multithreads/data/localRecommend.json")
+f = file(os.path.dirname(sys.argv[0])+"/data/localRecommend.json")
 s = json.load(f)
 f.close
 
@@ -66,6 +67,7 @@ def check(word):
     
     tmp=[]
     for line in own_test_all_dic:
+        line[0] = random.choice(line[0].split(" "))
         if line[1]>=0.2:
             tmp.append(line)
     
@@ -114,6 +116,7 @@ def check_artist(word):
 
 
 def output_genre(question):
+    question = question.lower()
     string=check(question)
     #add_string=check_artist(question)
     
