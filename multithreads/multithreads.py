@@ -45,7 +45,7 @@ def worker_name(line,q,exception_flag,exception):
             interface_singer_list.append(content_list[i]['singer'])
         
         singer_counts = Counter(interface_singer_list)
-        top_three = singer_counts.most_common(20)      
+        top_three = singer_counts.most_common(40)      
         synonym_singer = ''
         singer = []
         tmp_check=''
@@ -159,7 +159,7 @@ def worker_name_single(line,p, exception_flag, exception):
 
 cf = ConfigParser.ConfigParser()
 cf.read(os.path.abspath(os.path.curdir)+"/query.conf")
-config = cf.items("server")
+config = cf.items("local")
 
 all_singers=[]
 singer_file = open(config[2][1]+"/data/xiami_singer.dic","r")
