@@ -116,7 +116,7 @@ def check_artist(word):
 
 
 def output_genre(question):
-    question = question.lower()
+    question = question.lower().replace("-", "")
     string=check(question)
     #add_string=check_artist(question)
     

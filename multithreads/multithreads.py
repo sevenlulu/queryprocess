@@ -215,7 +215,6 @@ def test_f(question):
         if exception_flag != [] and exception_flag[-1] == 1: 
             exception_msg = exception[-1]
             exception_dic = {"code" : 500, "msg": exception_msg}
-            print "executed here 0"
             return json.dumps(exception_dic, ensure_ascii=False)
         else:
 
