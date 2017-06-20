@@ -10,7 +10,7 @@ import json
 
 past=['之后','后面','以后','后','年后']
 before=['之前','前面','以前','前','年前']
-pass_word=['上','首','一首','一千年','一个','一支','一曲','一些']
+pass_word=['上','首','一首','一千年','一个','一支','一曲','一些','点']
 
 time_dic={
     '五十年代':[1950,1959],
@@ -32,8 +32,8 @@ time_dic={
     '七十年代末八十年代初':[1986,1995],
     '六十年代末七十年代初':[1986,1995],
     '80年代末90年代初':[1986,1995],
-    '70年代末80年代初':[1986,1995],
-    '60年代末70年代初':[1986,1995],
+    '70年代末80年代初':[1976,1985],
+    '60年代末70年代初':[1966,1975],
     '50年代':[1950,1959],
     '60年代':[1960,1969],
     '70年代':[1970,1979],
@@ -164,7 +164,17 @@ def print_result(line):
                     higher=list_tmp[1]
                 except:
                     return 'None','None'
-                
+        
+
+        elif tmp=='mtf' :
+                try:
+                    tmp_dic=second_check[0][0].encode('utf8')+second_check[1][0].encode('utf8')+second_check[2][0].encode('utf8')
+                    list_tmp=time_dic[tmp_dic]
+                    less=list_tmp[0]
+                    higher=list_tmp[1]
+                except:
+                    return 'None','None'
+
         elif tmp=='m': 
             try:
                 list_tmp=time_dic[second_check[0][0].encode('utf8')]
