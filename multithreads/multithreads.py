@@ -20,16 +20,22 @@ import ConfigParser
 
 
 def worker_time(line,q):
+    worker_time_start = time.clock()
     return_string=output_time(line)
     q.put(return_string)
+    worker_time_end = time.clock()
+    print "worker_time time cost: %f s" % (worker_time_end - worker_time_start)
 
 def worker_genre(line,q):
+    worker_genre_start = time.clock()
     return_string=output_genre(line)
     q.put(return_string)
+    worker_genre_end = time.clock()
+    print "worker_genre time cost: %f s" % (worker_genre_end - worker_genre_start)
 
 def worker_name(line,q,exception_flag,exception):
-    line = line.lower()
     start_name = time.clock()
+    line = line.lower()
 
     url = config[0][1]+line
     try:
@@ -49,6 +55,7 @@ def worker_name(line,q,exception_flag,exception):
         synonym_singer = ''
         singer = []
         tmp_check=''
+        end_name_0 = time.clock()
         for word in top_three:
             tmp_word = word[0].encode('utf8')
             tmp_word = tmp_word.lower()
@@ -84,11 +91,12 @@ def worker_name(line,q,exception_flag,exception):
 
         q.put(tmp)
         end_name= time.clock()    
-        print "read: %f s" % (end_name - start_name)
+        print "worker_name_0 time cost: %f s" % (end_name_0 - start_name)
+        print "worker_name time cost: %f s" % (end_name - start_name)
 
 def song_name(line,q, exception_flag, exception):
-    line = line.lower()
     start_name = time.clock()
+    line = line.lower()
 
     url = config[0][1]+line
     try:
@@ -124,10 +132,11 @@ def song_name(line,q, exception_flag, exception):
 
         q.put(tmp)
         end_name= time.clock()    
-        print "read: %f s" % (end_name - start_name)
+        print "song_name time cost: %f s" % (end_name - start_name)
 
 
 def worker_name_single(line,p, exception_flag, exception):
+    worker_name_single_start = time.clock()
     url=config[1][1]+line
     try:
         r = requests.post(url, timeout=2)
@@ -157,6 +166,9 @@ def worker_name_single(line,p, exception_flag, exception):
             }
             p.put([tmp,0])
 
+    worker_name_single_end = time.clock()
+    print "worker_name_single time cost: %f s" % (worker_name_single_end - worker_name_single_start)
+
 cf = ConfigParser.ConfigParser()
 cf.read(os.path.abspath(os.path.curdir)+"/query.conf")
 config = cf.items(sys.argv[1])
@@ -182,6 +194,7 @@ api=Flask(__name__)
 @api.route('/text/<string:question>',methods=['GET'])
 
 def test_f(question):
+        test_f_start = time.clock()
         exception_flag = []
         exception = []
 
@@ -216,6 +229,7 @@ def test_f(question):
             exception_msg = exception[-1]
             exception_dic = {"code" : 500, "msg": exception_msg}
             return json.dumps(exception_dic, ensure_ascii=False)
+            
         else:
 
             test=p.get()
@@ -249,6 +263,8 @@ def test_f(question):
 
                 if res["msg"] == "":
                     res.pop("msg")
+                test_f_1_end = time.clock()
+                print "test_f_1 time cost: %f s" % (test_f_1_end - test_f_start)    
                 return json.dumps(res,ensure_ascii=False)
             elif test[1]==0:
                 #process return data structure
@@ -274,9 +290,11 @@ def test_f(question):
 
                 if res["msg"] == "":
                     res.pop("msg")
-
+                test_f_2_end = time.clock()
+                print "test_f_2 time cost: %f s" % (test_f_2_end - test_f_start)
                 return json.dumps(res,ensure_ascii=False)
+
         
 
 if __name__=='__main__':
-    api.run(host='0.0.0.0', port=5200, debug=True, threaded=True)
+    api.run(host='0.0.0.0', port=5300, debug=True, threaded=True)

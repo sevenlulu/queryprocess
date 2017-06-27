@@ -82,6 +82,7 @@ Amy Winehouse
 Black Eyed Peas
 乔治-温斯顿
 格雷森·迈克尔·蔡斯
+田馥甄
 古周瑜
 绿日乐队
 肖恩·蒙德兹
@@ -222,6 +223,7 @@ t_f_boys
 George Winston
 Westlife
 Guns N' Roses
+hebe
 卡拉·布吕尼
 莎妮娅·唐恩
 凯蒂·佩里

@@ -7,7 +7,7 @@ sys.setdefaultencoding('UTF-8')
 import json
 import random
 import operator
-from tgrocery import Grocery 
+from textgrocery import Grocery 
 
 #loading training file and make training data
 f = file(os.path.abspath(os.path.curdir)+"/data/addition.json")
