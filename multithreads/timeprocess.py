@@ -10,7 +10,6 @@ import json
 
 past=['之后','后面','以后','后','年后']
 before=['之前','前面','以前','前','年前']
-#pass_word=['上','首','一首','一千年','一个','一支','一曲','一些','点']
 pass_word=['首','一首','一千年','一个','一支','一曲','一些','上','周末','点','早上','摇滚','下','午后','次元','几年','首来','首后','正在','中','清晨','起','首在','夜晚','夜夜']
 time_dic={
     '五十年代':[1950,1959],
@@ -167,13 +166,13 @@ def print_result(line):
         
 
         elif tmp=='mtf' :
-                try:
-                    tmp_dic=second_check[0][0].encode('utf8')+second_check[1][0].encode('utf8')+second_check[2][0].encode('utf8')
-                    list_tmp=time_dic[tmp_dic]
-                    less=list_tmp[0]
-                    higher=list_tmp[1]
-                except:
-                    return 'None','None'
+            try:
+                tmp_dic=second_check[0][0].encode('utf8')+second_check[1][0].encode('utf8')+second_check[2][0].encode('utf8')
+                list_tmp=time_dic[tmp_dic]
+                less=list_tmp[0]
+                higher=list_tmp[1]
+            except:
+                return 'None','None'
 
         elif tmp=='m': 
             try:
@@ -204,10 +203,14 @@ def print_result(line):
                 return 'None','None'
 
         elif tmp=='tt':
-            test_word=second_check[0][0].encode('utf8')+second_check[1][0].encode('utf8')
-            list_tmp=time_dic[word.encode('utf8')]
-            less=list_tmp[0]
-            higher=list_tmp[1]
+            try:
+                test_word=second_check[0][0].encode('utf8')+second_check[1][0].encode('utf8')
+                list_tmp=time_dic[word.encode('utf8')]
+                less=list_tmp[0]
+                higher=list_tmp[1]
+            except Exception, e:
+                return 'None','None'
+                
         elif tmp=='mt':
             try:
                 test_word=second_check[0][0].encode('utf8')+second_check[1][0].encode('utf8')
